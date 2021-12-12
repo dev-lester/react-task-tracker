@@ -21,7 +21,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && npm run prettier:write"
+      "pre-commit": "yarn run lint && yarn run prettier:write"
     }
   },
   "eslintConfig": {
